@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "Open Sans",sans-serif;
+            box-sizing: border-box;
+        }
+        body{
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1f1f1;
+        }
+        .about-section{
+            background: url(Bstore.png) no-repeat left;
+            background-size: 55%;
+            background-color: #fdfdfd;
+            overflow: hidden;
+            padding: 100px 0;
+        }
+        .inner-container{
+            width: 40%;
+            float: right;
+            background-color: #fdfdfd;
+            padding: 150px;
+        }
+        .inner-container h1{
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-weight: 900;
+        }
+        .text{
+            font-size: 13px;
+            color: #545454;
+            line-height: 30px;
+            text-align: justify;
+            margin-bottom: 40px;
+        }
+        .skills{
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            font-size: 13px;
+        }
+        @media  screen and (max-width:1200px){
+            .inner-container{
+                padding: 80px;
+
+            }
+            @media  screen and (max-width:1000px){
+                .about-section{
+                    background-size: 100%;
+                    padding: 100px 40px;
+                }
+            .inner-container{
+                width: 100%;
+                
+            }
+            @media  screen and (max-width:600px){
+                .about-section{
+                    padding: 0;
+                }
+            .inner-container{
+                padding: 60px;
+                
+            }  
+        }
+    </style>
+</head>
+<body>
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">Welcome to BStore, your number one source for all things [product, ie: shoes, bags]. We're dedicated to giving you the very best of clothes, with a focus on three characteristics, ie: dependability, customer service and uniqueness.
+                Founded in 2021 by Sadiya Shaikh, BStore has come a long way from its beginnings in a [starting location, ie: home office, toolshed, Houston, TX.]. When she first started out, her passion for helping other parents be more eco-friendly, providing the best equipment for her fellow partners drove him to do intense research, quit her day job, and gave her the impetus to turn hard work and inspiration into to a booming online store. We now serve customers all over the US, the world, the Austin area, and are thrilled to be a part of the quirky, eco-friendly, fair trade wing of the fashion industry.</p>
+            <div class="skills">
+                <span>Your History</span>
+                <span>Team Member Profiles</span>
+                <span>Multimedia & Infographics</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
